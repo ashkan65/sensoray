@@ -1,3 +1,6 @@
+================================================================================================================================
+Use this instead of the SDK from Sensoray website. The make file works with Linux headers and the cmake is ready for demo.c
+================================================================================================================================
 Sensoray 826 Linux SDK
 
 Linux driver and demo programs.
