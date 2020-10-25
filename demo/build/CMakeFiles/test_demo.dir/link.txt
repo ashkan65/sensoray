@@ -1,0 +1,1 @@
+/usr/bin/cc -D_LINUX -no-pie -lm   CMakeFiles/test_demo.dir/s826_example.c.o  -o test_demo   -L/home/ashkan/Documents/sensoray/demo  -Wl,-rpath,/home/ashkan/Documents/sensoray/demo -Wl,-Bstatic -l826_64 -Wl,-Bdynamic -lm 

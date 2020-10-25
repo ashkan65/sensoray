@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ashkan/Documents/sensoray/demo/826api.h
+linux/types.h
+-
+stdint.h
+-
+
+/home/ashkan/Documents/sensoray/demo/s826_example.c
+windows.h
+-
+conio.h
+-
+stdio.h
+-
+stdlib.h
+-
+math.h
+-
+../826api.h
+/home/ashkan/Documents/sensoray/826api.h
+826api.h
+/home/ashkan/Documents/sensoray/demo/826api.h
+

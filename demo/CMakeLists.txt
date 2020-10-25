@@ -1,0 +1,10 @@
+cmake_minimum_required(VERSION 3.10)
+project(sensoray_demo)
+
+set(CMAKE_C_FLAGS "-D_LINUX -no-pie -lm")
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 ")
+link_directories("/home/ashkan/Documents/sensoray/demo")
+set(CMAKE_POSITION_INDEPENDENT_CODE ON)
+add_definitions(-DOSTYPE_linux)
+add_executable(test_demo s826_example.c)
+target_link_libraries(test_demo PRIVATE lib826_64.a m)

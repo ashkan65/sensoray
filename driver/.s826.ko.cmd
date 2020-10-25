@@ -1,0 +1,1 @@
+cmd_/home/ashkan/Documents/sensoray_sdk_826/driver/s826.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o /home/ashkan/Documents/sensoray_sdk_826/driver/s826.ko /home/ashkan/Documents/sensoray_sdk_826/driver/s826.o /home/ashkan/Documents/sensoray_sdk_826/driver/s826.mod.o;  true
